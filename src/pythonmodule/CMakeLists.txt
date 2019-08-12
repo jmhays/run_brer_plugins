@@ -7,7 +7,7 @@ pybind11_add_module(sampleplugin MODULE export_plugin.cpp)
 # Set the name of the shared object library (and the name of the Python module) to "myplugin".
 # If you change "myplugin" you must also change the argument to the macro ``PYBIND11_MODULE(myplugin, m)`` in
 # export_plugin.cpp
-set_target_properties(sampleplugin PROPERTIES OUTPUT_NAME wzm_wzt_plugins)
+set_target_properties(sampleplugin PROPERTIES OUTPUT_NAME run_brer_plugins)
 
 # We can't easily/reliably let a debug build of a Python module have a "d" suffix and still be importable with the same
 # name.
